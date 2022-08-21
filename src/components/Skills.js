@@ -2,9 +2,10 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import reactjslogo from "../assets/img/reactjslogo.svg";
+import springio from "../assets/img/springio.svg";
+import dotnet from "../assets/img/dotnet.svg";
+import expressjs from "../assets/img/expressjs.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -37,23 +38,23 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Long</p>
+                            <p>Software Engineer</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Software Engineer</h5>
+                                    <img src={springio} alt="Image" />
+                                    <h5>Spring</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Date Engineer</h5>
+                                    <img src={expressjs} alt="Image" />
+                                    <h5>ExpressJs</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Devops</h5>
+                                    <img src={reactjslogo} alt="Image" />
+                                    <h5>ReactJs</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Software Engineer</h5>
+                                    <img src={dotnet} alt="Image" />
+                                    <h5>.NET</h5>
                                 </div>
                             </Carousel>
                         </div>

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import React from "react";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg"
+import {Leaves} from "../components/Leaves";
 
 export const Banner = () => {
 
