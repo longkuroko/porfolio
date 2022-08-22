@@ -317,11 +317,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   width: 100%;
-  background-image: url('./assets/img/fall6.jpeg');
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -339,17 +340,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
-  color: #1C0A00;
+  color: #fff;
 }
 .banner p {
-  color: #1C0A00;
+  color: #fff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
 }
 .banner button {
-  color: #1C0A00;
+  color: #fff;
   font-weight: 700;
   font-size: 20px;
   margin-top: 60px;
@@ -388,13 +389,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  width: 100%;
 }
 .skill-bx {
   background: #B97A95;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  padding: 40px 25px;
+  margin-top: 30px;
+  margin-bottom: -30px;
 }
 .skill h2 {
 	font-size: 45px;
